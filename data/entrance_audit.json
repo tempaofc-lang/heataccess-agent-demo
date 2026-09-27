@@ -1,0 +1,1876 @@
+{
+  "method": "OSM entrance/gate nodes within 15 m of NYC Parks property outline; proximity only, no confirmed public access",
+  "source_url": "https://overpass-api.de/api/interpreter",
+  "snapshot_utc": "2026-09-27T11:25:15.127697+00:00",
+  "snapshot_sha256": "9e5b0e6bd92fd70b3328517c0ffa5be3b5bc8ed3487095fe01202d92a13e2be5",
+  "osm_nodes_in_bbox": 1953,
+  "parks_total": 73,
+  "counts": {
+    "mapped_candidate": 26,
+    "restricted_or_nonpublic_tag": 5,
+    "no_boundary_tag": 42
+  },
+  "limitations": [
+    "An OSM entrance or gate tag does not establish public access or opening hours.",
+    "A missing tag does not establish that an entrance does not exist.",
+    "A gate within 15 m of two property outlines may be assigned to both; geometries and OSM tags can be stale.",
+    "Existing network proxy edges are not entrance counts. The accessibility baseline is unchanged by this desk audit."
+  ],
+  "parks": [
+    {
+      "id": "X247",
+      "name": "Fox Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 4,
+      "boundary_tags": [
+        {
+          "osm_id": 8250499109,
+          "lon": -73.898451,
+          "lat": 40.815284,
+          "boundary_distance_m": 1.6,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/8250499109"
+        },
+        {
+          "osm_id": 8250520252,
+          "lon": -73.897888,
+          "lat": 40.81494,
+          "boundary_distance_m": 2.4,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/8250520252"
+        }
+      ],
+      "candidate_count": 2,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M108A",
+      "name": "Louis Cuvillier Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M300",
+      "name": "Sherman Creek",
+      "category": "Neighborhood Park",
+      "proxy_edges": 8,
+      "boundary_tags": [
+        {
+          "osm_id": 748726661,
+          "lon": -73.922541,
+          "lat": 40.857511,
+          "boundary_distance_m": 3.3,
+          "tags": {
+            "barrier": "entrance"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/748726661"
+        },
+        {
+          "osm_id": 4681843182,
+          "lon": -73.922325,
+          "lat": 40.855681,
+          "boundary_distance_m": 12.0,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/4681843182"
+        },
+        {
+          "osm_id": 7154624160,
+          "lon": -73.922564,
+          "lat": 40.857099,
+          "boundary_distance_m": 0.6,
+          "tags": {
+            "barrier": "entrance"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/7154624160"
+        },
+        {
+          "osm_id": 12811981921,
+          "lon": -73.921048,
+          "lat": 40.860166,
+          "boundary_distance_m": 11.7,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/12811981921"
+        }
+      ],
+      "candidate_count": 4,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X305",
+      "name": "Concrete Plant Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 6,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M029",
+      "name": "Fort Tryon Park",
+      "category": "Community Park",
+      "proxy_edges": 0,
+      "boundary_tags": [
+        {
+          "osm_id": 1205714806,
+          "lon": -73.931884,
+          "lat": 40.859612,
+          "boundary_distance_m": 3.3,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/1205714806"
+        },
+        {
+          "osm_id": 1205714996,
+          "lon": -73.930213,
+          "lat": 40.863295,
+          "boundary_distance_m": 0.6,
+          "tags": {
+            "barrier": "entrance"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/1205714996"
+        },
+        {
+          "osm_id": 1209576696,
+          "lon": -73.92922,
+          "lat": 40.864632,
+          "boundary_distance_m": 3.1,
+          "tags": {
+            "barrier": "entrance"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/1209576696"
+        },
+        {
+          "osm_id": 1209576758,
+          "lon": -73.928159,
+          "lat": 40.865379,
+          "boundary_distance_m": 11.4,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/1209576758"
+        },
+        {
+          "osm_id": 1209576761,
+          "lon": -73.929887,
+          "lat": 40.865724,
+          "boundary_distance_m": 8.7,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/1209576761"
+        },
+        {
+          "osm_id": 1209576787,
+          "lon": -73.929856,
+          "lat": 40.865784,
+          "boundary_distance_m": 1.6,
+          "tags": {
+            "barrier": "entrance"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/1209576787"
+        },
+        {
+          "osm_id": 1215606689,
+          "lon": -73.934624,
+          "lat": 40.858664,
+          "boundary_distance_m": 0.6,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/1215606689"
+        },
+        {
+          "osm_id": 1215606695,
+          "lon": -73.934568,
+          "lat": 40.859298,
+          "boundary_distance_m": 0.8,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/1215606695"
+        },
+        {
+          "osm_id": 8861280806,
+          "lon": -73.935372,
+          "lat": 40.858958,
+          "boundary_distance_m": 1.6,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/8861280806"
+        },
+        {
+          "osm_id": 9447549510,
+          "lon": -73.934531,
+          "lat": 40.859478,
+          "boundary_distance_m": 0.4,
+          "tags": {
+            "entrance": "yes"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9447549510"
+        },
+        {
+          "osm_id": 9447549511,
+          "lon": -73.9346,
+          "lat": 40.859473,
+          "boundary_distance_m": 0.4,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9447549511"
+        },
+        {
+          "osm_id": 12738450358,
+          "lon": -73.92922,
+          "lat": 40.864632,
+          "boundary_distance_m": 3.1,
+          "tags": {
+            "barrier": "entrance"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/12738450358"
+        }
+      ],
+      "candidate_count": 12,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M302",
+      "name": "Detective Omar Edwards Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 1,
+      "boundary_tags": [
+        {
+          "osm_id": 14123403327,
+          "lon": -73.935128,
+          "lat": 40.802627,
+          "boundary_distance_m": 1.1,
+          "tags": {
+            "barrier": "gate",
+            "foot": "yes"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/14123403327"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M285",
+      "name": "Dr. Ronald E. McNair Playground",
+      "category": "Neighborhood Park",
+      "proxy_edges": 4,
+      "boundary_tags": [
+        {
+          "osm_id": 9148335674,
+          "lon": -73.937921,
+          "lat": 40.802163,
+          "boundary_distance_m": 10.0,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9148335674"
+        },
+        {
+          "osm_id": 11343336392,
+          "lon": -73.938164,
+          "lat": 40.802888,
+          "boundary_distance_m": 4.9,
+          "tags": {
+            "barrier": "gate",
+            "access": "private"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/11343336392"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M216",
+      "name": "Holcombe Rucker Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [
+        {
+          "osm_id": 7246782897,
+          "lon": -73.936157,
+          "lat": 40.83034,
+          "boundary_distance_m": 7.3,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/7246782897"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M186",
+      "name": "Brigadier General Charles Young Playground",
+      "category": "Neighborhood Park",
+      "proxy_edges": 34,
+      "boundary_tags": [
+        {
+          "osm_id": 3584384842,
+          "lon": -73.93623,
+          "lat": 40.820202,
+          "boundary_distance_m": 5.0,
+          "tags": {
+            "entrance": "exit",
+            "wheelchair": "no"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/3584384842"
+        },
+        {
+          "osm_id": 12732366333,
+          "lon": -73.93629,
+          "lat": 40.820245,
+          "boundary_distance_m": 11.7,
+          "tags": {
+            "entrance": "exit"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/12732366333"
+        }
+      ],
+      "candidate_count": 0,
+      "status": "restricted_or_nonpublic_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X262",
+      "name": "Harding Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X045",
+      "name": "St. Mary's Park",
+      "category": "Community Park",
+      "proxy_edges": 120,
+      "boundary_tags": [
+        {
+          "osm_id": 7691374332,
+          "lon": -73.910113,
+          "lat": 40.810708,
+          "boundary_distance_m": 12.0,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/7691374332"
+        },
+        {
+          "osm_id": 12650216277,
+          "lon": -73.914032,
+          "lat": 40.810293,
+          "boundary_distance_m": 2.6,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/12650216277"
+        },
+        {
+          "osm_id": 12650216280,
+          "lon": -73.91356,
+          "lat": 40.810307,
+          "boundary_distance_m": 7.8,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/12650216280"
+        },
+        {
+          "osm_id": 13809174837,
+          "lon": -73.914595,
+          "lat": 40.811157,
+          "boundary_distance_m": 0.3,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/13809174837"
+        }
+      ],
+      "candidate_count": 4,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X272",
+      "name": "Ranaqua Playground",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X288",
+      "name": "West Farms Rapids",
+      "category": "Neighborhood Park",
+      "proxy_edges": 2,
+      "boundary_tags": [
+        {
+          "osm_id": 7624590746,
+          "lon": -73.877118,
+          "lat": 40.842284,
+          "boundary_distance_m": 0.8,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/7624590746"
+        },
+        {
+          "osm_id": 10096618332,
+          "lon": -73.87788,
+          "lat": 40.841378,
+          "boundary_distance_m": 2.6,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/10096618332"
+        }
+      ],
+      "candidate_count": 2,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X030",
+      "name": "Macombs Dam Park",
+      "category": "Community Park",
+      "proxy_edges": 105,
+      "boundary_tags": [
+        {
+          "osm_id": 6331727333,
+          "lon": -73.931128,
+          "lat": 40.83004,
+          "boundary_distance_m": 1.7,
+          "tags": {
+            "entrance": "emergency"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/6331727333"
+        },
+        {
+          "osm_id": 8427893255,
+          "lon": -73.932418,
+          "lat": 40.830473,
+          "boundary_distance_m": 5.3,
+          "tags": {
+            "barrier": "gate",
+            "access": "no"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/8427893255"
+        }
+      ],
+      "candidate_count": 0,
+      "status": "restricted_or_nonpublic_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X273",
+      "name": "Rock Garden Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 2,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X032",
+      "name": "Railroad Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 6,
+      "boundary_tags": [
+        {
+          "osm_id": 5410095230,
+          "lon": -73.915065,
+          "lat": 40.824913,
+          "boundary_distance_m": 14.6,
+          "tags": {
+            "barrier": "gate",
+            "access": "private"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/5410095230"
+        }
+      ],
+      "candidate_count": 0,
+      "status": "restricted_or_nonpublic_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X010",
+      "name": "Crotona Park",
+      "category": "Flagship Park",
+      "proxy_edges": 272,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X195A",
+      "name": "Colgate Close",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [
+        {
+          "osm_id": 7045681097,
+          "lon": -73.881021,
+          "lat": 40.823611,
+          "boundary_distance_m": 0.0,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/7045681097"
+        },
+        {
+          "osm_id": 8034987057,
+          "lon": -73.88107,
+          "lat": 40.82425,
+          "boundary_distance_m": 5.5,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/8034987057"
+        }
+      ],
+      "candidate_count": 2,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X138",
+      "name": "Playground One Thirty Four CXXXIV",
+      "category": "Neighborhood Park",
+      "proxy_edges": 9,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X159",
+      "name": "Captain William Harry Thompson Playground",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X350",
+      "name": "Melrose Commons Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X028",
+      "name": "Joyce Kilmer Park",
+      "category": "Community Park",
+      "proxy_edges": 32,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X001A",
+      "name": "Aqueduct Walk",
+      "category": "Community Park",
+      "proxy_edges": 17,
+      "boundary_tags": [
+        {
+          "osm_id": 10890187246,
+          "lon": -73.909259,
+          "lat": 40.857211,
+          "boundary_distance_m": 8.2,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/10890187246"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X306",
+      "name": "Garrison Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [
+        {
+          "osm_id": 12099704937,
+          "lon": -73.884374,
+          "lat": 40.821591,
+          "boundary_distance_m": 2.8,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/12099704937"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X118",
+      "name": "Soundview Park",
+      "category": "Flagship Park",
+      "proxy_edges": 72,
+      "boundary_tags": [
+        {
+          "osm_id": 7694169363,
+          "lon": -73.878637,
+          "lat": 40.819227,
+          "boundary_distance_m": 9.5,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/7694169363"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X289",
+      "name": "Mapes Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X336",
+      "name": "Hunts Point Riverside Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 14,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X124",
+      "name": "Watson Gleason Playground",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M273",
+      "name": "Wagner Houses Pool",
+      "category": "Community Park",
+      "proxy_edges": 1,
+      "boundary_tags": [
+        {
+          "osm_id": 11805832604,
+          "lon": -73.933167,
+          "lat": 40.801767,
+          "boundary_distance_m": 5.6,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/11805832604"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X353",
+      "name": "Yolanda García Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 5,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X094",
+      "name": "Bridge Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 1,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M141",
+      "name": "Percy E. Sutton Playground",
+      "category": "Neighborhood Park",
+      "proxy_edges": 8,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X243",
+      "name": "Estella Diggs Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 12,
+      "boundary_tags": [
+        {
+          "osm_id": 9520836552,
+          "lon": -73.905957,
+          "lat": 40.828676,
+          "boundary_distance_m": 2.4,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9520836552"
+        },
+        {
+          "osm_id": 9520836566,
+          "lon": -73.905713,
+          "lat": 40.829071,
+          "boundary_distance_m": 1.8,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9520836566"
+        },
+        {
+          "osm_id": 9520886032,
+          "lon": -73.906493,
+          "lat": 40.829305,
+          "boundary_distance_m": 0.5,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9520886032"
+        },
+        {
+          "osm_id": 9520886033,
+          "lon": -73.906583,
+          "lat": 40.829065,
+          "boundary_distance_m": 0.0,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9520886033"
+        }
+      ],
+      "candidate_count": 4,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X307",
+      "name": "Barretto Point Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 23,
+      "boundary_tags": [
+        {
+          "osm_id": 11119580487,
+          "lon": -73.887218,
+          "lat": 40.806298,
+          "boundary_distance_m": 8.6,
+          "tags": {
+            "barrier": "gate",
+            "access": "private"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/11119580487"
+        },
+        {
+          "osm_id": 11119905356,
+          "lon": -73.888948,
+          "lat": 40.806025,
+          "boundary_distance_m": 0.6,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/11119905356"
+        },
+        {
+          "osm_id": 11119905357,
+          "lon": -73.889156,
+          "lat": 40.805867,
+          "boundary_distance_m": 1.5,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/11119905357"
+        },
+        {
+          "osm_id": 11119905358,
+          "lon": -73.888201,
+          "lat": 40.806132,
+          "boundary_distance_m": 0.0,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/11119905358"
+        },
+        {
+          "osm_id": 11119905359,
+          "lon": -73.888035,
+          "lat": 40.806157,
+          "boundary_distance_m": 0.1,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/11119905359"
+        }
+      ],
+      "candidate_count": 4,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X034",
+      "name": "Rev. T. Wendell Foster Park and Recreation Center",
+      "category": "Community Park",
+      "proxy_edges": 43,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X053",
+      "name": "O'Neill Triangle",
+      "category": "Neighborhood Park",
+      "proxy_edges": 2,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X010A",
+      "name": "Walter Gladwin Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 82,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X252",
+      "name": "Bathgate Playground",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X236",
+      "name": "Mapes Pool",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X008",
+      "name": "Claremont Park",
+      "category": "Community Park",
+      "proxy_edges": 103,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M166",
+      "name": "Harlem Art Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 1,
+      "boundary_tags": [
+        {
+          "osm_id": 8100692821,
+          "lon": -73.938829,
+          "lat": 40.801211,
+          "boundary_distance_m": 0.0,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/8100692821"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M193",
+      "name": "Abraham Lincoln Playground",
+      "category": "Community Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X017",
+      "name": "Richman (Echo) Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 20,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X111",
+      "name": "Cedar Playground",
+      "category": "Neighborhood Park",
+      "proxy_edges": 4,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X266",
+      "name": "Vidalia Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 7,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M031",
+      "name": "Amelia Gorman Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 1,
+      "boundary_tags": [
+        {
+          "osm_id": 6882325992,
+          "lon": -73.932917,
+          "lat": 40.855817,
+          "boundary_distance_m": 0.8,
+          "tags": {
+            "barrier": "gate",
+            "access": "no"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/6882325992"
+        }
+      ],
+      "candidate_count": 0,
+      "status": "restricted_or_nonpublic_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M037",
+      "name": "Highbridge Park",
+      "category": "Community Park",
+      "proxy_edges": 82,
+      "boundary_tags": [
+        {
+          "osm_id": 748725067,
+          "lon": -73.926602,
+          "lat": 40.853734,
+          "boundary_distance_m": 0.8,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/748725067"
+        },
+        {
+          "osm_id": 748726679,
+          "lon": -73.92576,
+          "lat": 40.854884,
+          "boundary_distance_m": 0.7,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/748726679"
+        },
+        {
+          "osm_id": 764738939,
+          "lon": -73.939516,
+          "lat": 40.832767,
+          "boundary_distance_m": 2.8,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/764738939"
+        },
+        {
+          "osm_id": 7154651888,
+          "lon": -73.924708,
+          "lat": 40.857715,
+          "boundary_distance_m": 0.9,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/7154651888"
+        },
+        {
+          "osm_id": 13627166511,
+          "lon": -73.926958,
+          "lat": 40.851446,
+          "boundary_distance_m": 0.0,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/13627166511"
+        }
+      ],
+      "candidate_count": 5,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "Q004A",
+      "name": "Ralph Demarco Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 6,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M104",
+      "name": "Randall's Island Park",
+      "category": "Flagship Park",
+      "proxy_edges": 254,
+      "boundary_tags": [
+        {
+          "osm_id": 3044457240,
+          "lon": -73.922485,
+          "lat": 40.792601,
+          "boundary_distance_m": 13.0,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/3044457240"
+        },
+        {
+          "osm_id": 3044457580,
+          "lon": -73.918934,
+          "lat": 40.79215,
+          "boundary_distance_m": 12.9,
+          "tags": {
+            "entrance": "yes"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/3044457580"
+        }
+      ],
+      "candidate_count": 2,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M140",
+      "name": "Recreational Area",
+      "category": "Community Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X367",
+      "name": "Dr. Thomasina Bushby Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X344",
+      "name": "Mill Pond Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 3,
+      "boundary_tags": [
+        {
+          "osm_id": 4281459774,
+          "lon": -73.932038,
+          "lat": 40.824633,
+          "boundary_distance_m": 9.7,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/4281459774"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X147A",
+      "name": "Starlight Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 15,
+      "boundary_tags": [
+        {
+          "osm_id": 9903111280,
+          "lon": -73.882792,
+          "lat": 40.829403,
+          "boundary_distance_m": 2.2,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9903111280"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M028",
+      "name": "Fort Washington Park",
+      "category": "Community Park",
+      "proxy_edges": 22,
+      "boundary_tags": [
+        {
+          "osm_id": 5608275789,
+          "lon": -73.931424,
+          "lat": 40.869219,
+          "boundary_distance_m": 1.6,
+          "tags": {
+            "barrier": "gate",
+            "access": "private"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/5608275789"
+        },
+        {
+          "osm_id": 13105274172,
+          "lon": -73.944211,
+          "lat": 40.850439,
+          "boundary_distance_m": 4.5,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/13105274172"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X002",
+      "name": "Bronx Park",
+      "category": "Flagship Park",
+      "proxy_edges": 167,
+      "boundary_tags": [
+        {
+          "osm_id": 42731925,
+          "lon": -73.869042,
+          "lat": 40.848026,
+          "boundary_distance_m": 0.1,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/42731925"
+        },
+        {
+          "osm_id": 471204933,
+          "lon": -73.877449,
+          "lat": 40.854991,
+          "boundary_distance_m": 8.1,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/471204933"
+        },
+        {
+          "osm_id": 471207126,
+          "lon": -73.877307,
+          "lat": 40.855716,
+          "boundary_distance_m": 1.4,
+          "tags": {
+            "barrier": "gate",
+            "access": "private"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/471207126"
+        },
+        {
+          "osm_id": 1657626612,
+          "lon": -73.879273,
+          "lat": 40.868145,
+          "boundary_distance_m": 10.5,
+          "tags": {
+            "barrier": "gate",
+            "access": "no"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/1657626612"
+        },
+        {
+          "osm_id": 1852162877,
+          "lon": -73.877086,
+          "lat": 40.844211,
+          "boundary_distance_m": 14.7,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/1852162877"
+        },
+        {
+          "osm_id": 2741363133,
+          "lon": -73.877234,
+          "lat": 40.844255,
+          "boundary_distance_m": 10.0,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/2741363133"
+        },
+        {
+          "osm_id": 3331332365,
+          "lon": -73.880451,
+          "lat": 40.861109,
+          "boundary_distance_m": 7.4,
+          "tags": {
+            "barrier": "gate",
+            "access": "private"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/3331332365"
+        },
+        {
+          "osm_id": 3380806775,
+          "lon": -73.880544,
+          "lat": 40.859646,
+          "boundary_distance_m": 0.4,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/3380806775"
+        },
+        {
+          "osm_id": 3380806778,
+          "lon": -73.880641,
+          "lat": 40.861371,
+          "boundary_distance_m": 8.1,
+          "tags": {
+            "barrier": "gate",
+            "access": "private"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/3380806778"
+        },
+        {
+          "osm_id": 3656081810,
+          "lon": -73.86955,
+          "lat": 40.847287,
+          "boundary_distance_m": 4.9,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/3656081810"
+        },
+        {
+          "osm_id": 3913316397,
+          "lon": -73.881853,
+          "lat": 40.851587,
+          "boundary_distance_m": 9.7,
+          "tags": {
+            "barrier": "gate",
+            "foot": "designated"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/3913316397"
+        },
+        {
+          "osm_id": 7046149218,
+          "lon": -73.875838,
+          "lat": 40.842096,
+          "boundary_distance_m": 2.4,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/7046149218"
+        },
+        {
+          "osm_id": 8655216572,
+          "lon": -73.87006,
+          "lat": 40.846435,
+          "boundary_distance_m": 12.5,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/8655216572"
+        },
+        {
+          "osm_id": 9193197062,
+          "lon": -73.869436,
+          "lat": 40.848235,
+          "boundary_distance_m": 11.9,
+          "tags": {
+            "entrance": "main",
+            "access": "permissive"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9193197062"
+        },
+        {
+          "osm_id": 9193197063,
+          "lon": -73.869297,
+          "lat": 40.848898,
+          "boundary_distance_m": 14.9,
+          "tags": {
+            "entrance": "main",
+            "access": "permissive"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9193197063"
+        },
+        {
+          "osm_id": 9821594208,
+          "lon": -73.881798,
+          "lat": 40.852218,
+          "boundary_distance_m": 0.4,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/9821594208"
+        },
+        {
+          "osm_id": 10175294550,
+          "lon": -73.88082,
+          "lat": 40.861572,
+          "boundary_distance_m": 11.1,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/10175294550"
+        },
+        {
+          "osm_id": 10175294551,
+          "lon": -73.880744,
+          "lat": 40.861548,
+          "boundary_distance_m": 14.1,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/10175294551"
+        },
+        {
+          "osm_id": 10308619957,
+          "lon": -73.882402,
+          "lat": 40.85015,
+          "boundary_distance_m": 2.0,
+          "tags": {
+            "barrier": "gate",
+            "access": "no"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/10308619957"
+        },
+        {
+          "osm_id": 10308619959,
+          "lon": -73.882594,
+          "lat": 40.848816,
+          "boundary_distance_m": 0.1,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/10308619959"
+        },
+        {
+          "osm_id": 10840114336,
+          "lon": -73.882511,
+          "lat": 40.86592,
+          "boundary_distance_m": 14.9,
+          "tags": {
+            "barrier": "gate",
+            "access": "no"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/10840114336"
+        },
+        {
+          "osm_id": 11329762282,
+          "lon": -73.882533,
+          "lat": 40.848693,
+          "boundary_distance_m": 0.4,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/11329762282"
+        },
+        {
+          "osm_id": 13599423177,
+          "lon": -73.882025,
+          "lat": 40.867011,
+          "boundary_distance_m": 3.9,
+          "tags": {
+            "entrance": "yes",
+            "wheelchair": "no"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/13599423177"
+        }
+      ],
+      "candidate_count": 17,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X269",
+      "name": "Cpl Fischer Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X248",
+      "name": "Barretto Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M014",
+      "name": "Jackie Robinson Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 11,
+      "boundary_tags": [
+        {
+          "osm_id": 764742011,
+          "lon": -73.942715,
+          "lat": 40.823668,
+          "boundary_distance_m": 2.9,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/764742011"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X015",
+      "name": "Joseph Rodman Drake Park & Enslaved African Burial Ground",
+      "category": "Neighborhood Park",
+      "proxy_edges": 11,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M009",
+      "name": "Bennett Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 11,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X119",
+      "name": "Alexander's Alley",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X047",
+      "name": "Franz Sigel Park",
+      "category": "Community Park",
+      "proxy_edges": 27,
+      "boundary_tags": [
+        {
+          "osm_id": 2822077914,
+          "lon": -73.926368,
+          "lat": 40.821171,
+          "boundary_distance_m": 12.8,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/2822077914"
+        }
+      ],
+      "candidate_count": 1,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X271",
+      "name": "Grant Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 12,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M072",
+      "name": "Riverside Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 11,
+      "boundary_tags": [
+        {
+          "osm_id": 8071690037,
+          "lon": -73.956004,
+          "lat": 40.823008,
+          "boundary_distance_m": 14.4,
+          "tags": {
+            "barrier": "gate",
+            "foot": "yes"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/8071690037"
+        },
+        {
+          "osm_id": 11968093636,
+          "lon": -73.953886,
+          "lat": 40.825642,
+          "boundary_distance_m": 14.9,
+          "tags": {
+            "entrance": "yes",
+            "access": "yes"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/11968093636"
+        }
+      ],
+      "candidate_count": 2,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X120",
+      "name": "Highbridge Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 4,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M058",
+      "name": "Marcus Garvey Park",
+      "category": "Community Park",
+      "proxy_edges": 122,
+      "boundary_tags": [
+        {
+          "osm_id": 3023172091,
+          "lon": -73.943302,
+          "lat": 40.802904,
+          "boundary_distance_m": 9.9,
+          "tags": {
+            "barrier": "gate"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/3023172091"
+        },
+        {
+          "osm_id": 14199510952,
+          "lon": -73.944914,
+          "lat": 40.805009,
+          "boundary_distance_m": 14.3,
+          "tags": {
+            "entrance": "main"
+          },
+          "restricted_tag": false,
+          "url": "https://www.openstreetmap.org/node/14199510952"
+        }
+      ],
+      "candidate_count": 2,
+      "status": "mapped_candidate",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X267",
+      "name": "Eae J Mitchell Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X286",
+      "name": "Rev Lena Irons Unity Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 5,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M047",
+      "name": "Thomas Jefferson Park",
+      "category": "Community Park",
+      "proxy_edges": 27,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M099",
+      "name": "J. Hood Wright Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 28,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M355",
+      "name": "Robert L. Clinkscales Playground and Community Garden",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "M077",
+      "name": "St. Nicholas Park",
+      "category": "Neighborhood Park",
+      "proxy_edges": 28,
+      "boundary_tags": [
+        {
+          "osm_id": 7477361315,
+          "lon": -73.949484,
+          "lat": 40.814582,
+          "boundary_distance_m": 0.6,
+          "tags": {
+            "entrance": "emergency"
+          },
+          "restricted_tag": true,
+          "url": "https://www.openstreetmap.org/node/7477361315"
+        }
+      ],
+      "candidate_count": 0,
+      "status": "restricted_or_nonpublic_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "X086",
+      "name": "Charlton-Thompson Garden",
+      "category": "Neighborhood Park",
+      "proxy_edges": 0,
+      "boundary_tags": [],
+      "candidate_count": 0,
+      "status": "no_boundary_tag",
+      "access_verified": false,
+      "opening_hours_verified": false
+    }
+  ]
+}
